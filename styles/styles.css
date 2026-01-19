@@ -55,18 +55,19 @@ a{
 
 .banner{
     height: 794px;
-    /* border: 2px solid black; */
+    /* border: 2px solid red; */
 }
 
 .hero img{
     max-width: 1600px;
+    height: 794px;
 }
 
 
 .banner-img1{
     display: flex;
     flex-direction: column;
-    margin-top: -659px;
+    margin-top: -669px;
     gap: 40px;
 }
 
@@ -123,3 +124,47 @@ a{
     color: #00FF88;
     cursor: pointer;
 }
+
+.about{
+    width: 1600px;
+    height: 646px;
+    background-color: #1A0B2E;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+
+.about h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 50px;
+    margin-bottom: 16px;
+}
+
+.about p{
+    width: 50%;
+    max-width: 1200px;
+    height: 148px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+hr{
+    width: 1200px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-container h1{
+    font-size: 48px;
+    color: #00FF88;
+    font-weight:900;
+}
+
