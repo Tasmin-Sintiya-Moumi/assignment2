@@ -52,3 +52,74 @@ a{
     background: linear-gradient(to top right, rgb(236, 236, 75),rgb(227, 155, 20),rgb(201, 75, 144),rgb(115, 9, 115));
     cursor: pointer;
 }
+
+.banner{
+    height: 794px;
+    /* border: 2px solid black; */
+}
+
+.hero img{
+    max-width: 1600px;
+}
+
+
+.banner-img1{
+    display: flex;
+    flex-direction: column;
+    margin-top: -659px;
+    gap: 40px;
+}
+
+.banner-img1 img{
+    width: 350px;
+    height: 350px;
+    margin-left: 625px;
+}
+
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.banner-content p{
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.btn1{
+    width: 201px;
+    height: 44px;
+    border: none;
+    border-radius: 10000px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: linear-gradient(to top right, rgb(236, 236, 75),rgb(227, 155, 20),rgb(201, 75, 144),rgb(115, 9, 115));
+    cursor: pointer;
+}
+
+.btn2{
+    width: 147px;
+    height: 44px;
+    border: 1px solid #00FF88;
+    border-radius: 10000px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
+    cursor: pointer;
+}
