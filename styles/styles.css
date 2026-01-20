@@ -183,6 +183,90 @@ hr{
     background-color: #230E3D;
 }
 
+.choose h1{
+    margin-bottom: 40px;
+}
+
+.choose img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+}
+
+.choose h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.choose p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.choose-container{
+    width: 1200px;
+    height: 783px;
+    margin: auto;
+}
+
+#audio{
+    background-color: rgba(54, 18, 101, 0.4);
+    border-radius: 40px;
+    width: 380px;
+    height: 480px;
+    padding: 107px 40px;
+    grid-area: audio;
+}
+
+#mobile{
+    background-color: rgba(54, 18, 101, 0.4);
+    border-radius: 40px;
+    width: 790px;
+    height: 225px;
+    padding: 40px 40px;
+    grid-area: mobile;
+}
+
+#global{
+    background-color: rgba(54, 18, 101, 0.4);
+    border-radius: 40px;
+    width: 790px;
+    height: 225px;
+    padding: 40px 40px;
+    grid-area: global;
+}
+
+#interview{
+    background-color: rgba(54, 18, 101, 0.4);
+    border-radius: 40px;
+    width: 790px;
+    height: 273px;
+    padding: 40px 40px;
+    grid-area: interview;
+}
+
+#resource{
+    background-color: rgba(54, 18, 101, 0.4);
+    border-radius: 40px;
+    width: 380px;
+    height: 273px;
+    padding: 40px 40px;
+    grid-area: resource;
+}
+
+.choose-container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    
+    "audio mobile mobile"
+    "audio global global"
+    "interview interview resource";
+}
+
 .feature{
     width: 1600px;
     height: 1276px;
@@ -196,6 +280,31 @@ hr{
     font-weight: bold;
     text-align: center;
     padding-top: 120px;
+}
+
+.host{
+    width: 1200px;
+    height: 280px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid white;
+    padding-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.host h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.host p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer{
