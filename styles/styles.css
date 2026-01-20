@@ -160,6 +160,8 @@ hr{
 .about-container{
     display: flex;
     justify-content: space-around;
+    margin-top: 80px;
+ 
 }
 
 .about-container h1{
@@ -168,3 +170,76 @@ hr{
     font-weight:900;
 }
 
+.about-container h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.choose{
+    height: 1121px;
+    width: 1600px;
+    background-color: #230E3D;
+}
+
+.feature{
+    width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E;
+    /* border: 2px solid red; */
+}
+
+.feature h1, .choose h1{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.footer{
+    height: 412px;
+}
+
+.footer-img1{
+    height: 412px;
+    margin-top: -240px;
+}
+
+
+.footer-img1 img{
+    width: 410px;
+    height: 60px;
+    margin-left: 575px;
+}
+
+
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 544px;
+    height: 24px;
+    margin-top: -240px;
+    text-align: center;
+}
+
+.foot img{
+    width: 24px;
+    height: 24px;
+    margin-left: 408px;
+}
+
+.foot p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.copyright{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 32px;
+}
