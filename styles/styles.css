@@ -82,15 +82,20 @@ a{
 }
 
 .banner-img2 img{
-    width: 200px;
+    width: 150px;
     height: 200px;
-    margin-left: 700px;
+    margin-left: 730px;
     margin-bottom: 110px;
+}
+
+.banner-img3{
+    margin-top: -400px;
+    margin-bottom: 300px;
 }
 
 .banner-button{
     width: 75px;
-    height: 38px;
+    height: 37px;
     background-color: #00FF88;
     color: #1A0B2E;
     font-size: 18px;
@@ -98,6 +103,7 @@ a{
     border-radius: 1000px;
     box-shadow: 0 3px 27px rgba(0, 255, 136, 0.5) ;
     border: none;
+    margin-left: 890px;
     margin-top: -200px;
 
 }
