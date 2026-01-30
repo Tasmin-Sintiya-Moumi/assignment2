@@ -110,6 +110,9 @@ a{
 
 
 .banner-content{
+    width: 550px;
+    height: 169px;
+    margin-left: 525px;
     text-align: center;
 }
 
@@ -327,6 +330,47 @@ hr{
     background-color: #250D44;
     border-radius: 40px;
 
+}
+
+.cards h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 24px 24px 0 24px;
+    text-align: start;
+}
+
+.cards p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin: 12px 24px 0 24px;
+    text-align: start;
+}
+
+.frame{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px ;
+}
+
+.time{
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    /* margin: 12px 24px 0 24px;  */
+    
+}
+
+.time img{
+    width: 20px;
+    height: 20px;
+    margin: 12px 0 0 24px;
+}
+
+.time p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #00FF88;
 }
 
 .host{
