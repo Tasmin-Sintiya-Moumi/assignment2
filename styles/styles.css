@@ -63,7 +63,7 @@ a{
 }
 
 .hero img{
-    max-width: 1600px;
+    width: 1600px;
     height: 794px;
 }
 
@@ -507,7 +507,7 @@ hr{
         max-width: 100%;
     }
 
-    /* NAV */
+
     nav {
         width: 100%;
         height: auto;
@@ -530,20 +530,29 @@ hr{
         height: auto;
     }
 
+    .hero{
+         max-width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+
     .hero img {
         max-width: 100%;
         height: auto;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .banner {
         width: 100%;
         height: auto;
+        margin: 0 auto;
         background-color: #1A0B2E;
     }
 
     .banner-img1 {
-        margin-top: -260px;
+        width: 100%;
+        height: auto;
+        margin-top: -248px;
         gap: 20px;
         align-items: center;
     }
@@ -668,9 +677,8 @@ hr{
         height: 200px;
     }
 
-    /* HOST */
     .host {
-        width: 90%;
+        width: 80%;
         height: auto;
         flex-direction: column;
         text-align: center;
@@ -683,17 +691,21 @@ hr{
         margin: auto;
     }
 
+    .host-img img{
+        width: 100%;
+    
+    }
+
     .host-icon {
         justify-content: center;
     }
 
     .footer {
         width: 100%;
-        height: 100%; 
-        background-size: cover;
+        height: 100%;
+        background-size: cover;       
         background-position: center;
         background-repeat: no-repeat;
-        padding-bottom: 40px;
     }
 
     .footer-content{
@@ -706,22 +718,29 @@ hr{
         height: auto;
         margin-left: 0;
         text-align: center;
-        padding-top: 30px;
+        padding-top: 0px;
     }
 
     .footer-img1 img{
         width: 35%;
         height: auto;
+        padding-top: 10%;
     }
 
     .foot {
-        
+        max-width: 255px;
+        max-height: 64px;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        margin-left: 0;
-        gap: 5px;
+        flex-wrap: wrap;
+        margin-left: 25%;
+        margin-top: -60px;
+        gap: 15px;
     }
 
     .copyright {
         margin-left: 0;
+        padding-top: 30px;
     }
 }
